@@ -1,29 +1,74 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="utf-8">
-    <title>Twilight Software</title>
-  </head>
-  <link rel="stylesheet" href="https://unpkg.com/7.css">
-  <body>
-    <ul role="menubar">
-      <li role="menuitem" tabindex="0"><a href="/">Home</a></li>
-      <li role="menuitem" tabindex="0"><a href="projects">Projects</a></li>
-      <li role="menuitem" tabindex="0"><a href="contribute">Contribute</a></li>
-      <li role="menuitem" tabindex="0"><a href="about">About</a></li>
-    </ul>
-    <div class="maintext">
-      <header class="header"><h4>Welcome back to the past!</h4></header>
-      <header class="paragraph2">
-        <p>
-          We are a community of developers keeping legacy Windows alive, either by patching it to work on modern hardware or by backporting apps to it<br>
-        </p>
-        <p>
-          Want to help? <a href="contribute">Contribute to our projects!</a>
-        </p>
-      </header>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to Winrevive!">
+  <meta name="keywords" content="Winrevive, Windows, XP, Vista, 7, 8, 8.1">
+  <meta name="robots" content="index, follow">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@AlureonWin">
+  <meta name="twitter:site" content="@AlureonWin">
+  <meta name="twitter:title" content="Winrevive">
+  <meta name="twitter:description" content="Welcome to Winrevive!">
+  <meta name="twitter:image" content="/assets/bliss.bmp">
+  <meta property="og:title" content="Winrevive">
+  <meta property="og:description" content="Welcome to Winrevive!">
+  <meta property="og:image" content="/assets/bliss.bmp">
+  <meta property="og:url" content="https://winrevive.xyz">
+  <meta property="og:site_name" content="Winrevive">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <link rel="icon" href="/assets/favicon.ico">
+  <title>Winrevive</title>
+</head>
+
+<link rel="stylesheet" href="/styles/local.css">
+<link rel="stylesheet" href="/styles/7.css">
+
+<body>
+  <div class="windows-container">
+    <div class="window active">
+      <div class="title-bar">
+        <div class="title-bar-text">Winrevive</div>
+        <div class="title-bar-controls">
+          <button aria-label="Minimize" id="minimize"></button>
+          <button aria-label="Maximize"></button>
+          <button aria-label="Close"></button>
+        </div>
+      </div>
+
+      <div class="window-body has-space">
+        <ul role="menubar">
+          <li role="menuitem" tabindex="0"><a href="/" class="menubar-link">Home</a></li>
+          <li role="menuitem" tabindex="0"><a href="/projects" class="menubar-link">Projects</a></li>
+          <li role="menuitem" tabindex="0"><a href="/contribute" class="menubar-link">Contribute</a></li>
+          <li role="menuitem" tabindex="0"><a href="/about" class="menubar-link">About</a></li>
+          <li role="menuitem" tabindex="0"><a href="/discord" class="menubar-link">Discord</a></li>
+        </ul>
+        <header class="header">
+          <h4>Welcome back to the past!</h4>
+        </header>
+        <main>
+          <p style="font-size:medium;">
+            We are a community of developers keeping legacy Windows alive, either by patching it to work on modern
+            hardware
+            or by backporting apps to it<br><br>
+            Want to help? <a href="/contribute">Contribute to our projects!</a>
+          </p>
+        </main>
+        <footer style="margin-top: 40px;">
+          <p>&copy; Winrevive 2024</p>
+          <p>Winrevive's projects are not affiliated with Microsoft&reg; or any of its partners.</p>
+          <p>This website's source code is licensed under the GNU GPL2, read up on it <a
+              href="https://github.com/winrevive/winrevive.github.io/blob/main/LICENSE">here</a></p>
+          <p> Page contents are licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+          </p>
+        </footer>
+      </div>
     </div>
-    <main></main>
-    <footer></footer>
-  </body>
+  </div>
+</body>
+
 </html>
