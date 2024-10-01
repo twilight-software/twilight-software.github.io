@@ -1,32 +1,109 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="utf-8">
-    <title>Winrevive Projects</title>
-  </head>
-  <link rel="stylesheet" href="https://unpkg.com/7.css">
-  <body>
-    <ul role="menubar">
-      <li role="menuitem" tabindex="0"><a href="/">Home</a></li>
-      <li role="menuitem" tabindex="0"><a href="/projects">Projects</a></li>
-      <li role="menuitem" tabindex="0"><a href="/contribute">Contribute</a></li>
-      <li role="menuitem" tabindex="0"><a href="/about">About</a></li>
-    </ul>
-    <div class="maintext">
-      <header class="header"><h4>Our projects<br></h1></header>
-      <header class="header"><h5>Our projects to keep legacy Windows alive<br></h4>
-      <header class="header"><p>
-      <a href="luminafox">Luminafox</a><br>A Firefox fork targeting older versions of Windows!<br><br>
-      <header class="header"><h4>Upcoming projects<br></h1></header>
-      <header class="header"><h5>Stuff we're either working on or we will work on soon.<br></h4>
-      <a href="sunrise">Sunrise</a><br>Modern-ish web browser for older systems<br><br>
-      <a href="luminamail">Luminamail</a><br>Optimized mail client for Windows XP or higher<br><br>
-      <a href="project-2600">Project 2600</a><br>Windows XP API extensions to allow for better program compatibility<br><br>
-      <a href="powershell-xp">PowerShell XP</a><br>Windows Powershell backported to Windows XP<br><br>
-      
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Winrevive's projects">
+  <meta name="keywords" content="Winrevive, Projects, Windows, XP, Vista, 7, 8, 8.1">
+  <meta name="robots" content="index, follow">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@AlureonWin">
+  <meta name="twitter:site" content="@AlureonWin">
+  <meta name="twitter:title" content="Winrevive's Projects">
+  <meta name="twitter:description"
+    content="The page that hosts Winrevive's current projects such as Luminafox and upcoming projects such as Sunrise">
+  <meta name="twitter:image" content="/assets/bliss.bmp">
+  <meta property="og:title" content="Winrevive's Projects">
+  <meta property="og:description"
+    content="The page that hosts Winrevive's current projects such as Luminafox and upcoming projects such as Sunrise">
+  <meta property="og:image" content="/assets/bliss.bmp">
+  <meta property="og:url" content="https://winrevive.xyz/projects">
+  <meta property="og:site_name" content="Winrevive">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <link rel="icon" href="/assets/favicon.ico">
+  <title>Winrevive Projects</title>
+</head>
+
+<link rel="stylesheet" href="/styles/local.css">
+<link rel="stylesheet" href="/styles/7.css">
+
+<body>
+  <div class="windows-container">
+    <div class="window active">
+      <div class="title-bar">
+        <div class="title-bar-text">Winrevive : Projects</div>
+        <div class="title-bar-controls">
+          <button aria-label="Minimize" id="minimize"></button>
+          <button aria-label="Maximize"></button>
+          <button aria-label="Close"></button>
+        </div>
+      </div>
+
+      <div class="window-body has-space">
+        <ul role="menubar" style="padding: 0; margin: 0;">
+          <li role="menuitem" tabindex="0"><a href="/" class="menubar-link">Home</a></li>
+          <li role="menuitem" tabindex="0"><a href="/projects" class="menubar-link">Projects</a></li>
+          <li role="menuitem" tabindex="0"><a href="/contribute" class="menubar-link">Contribute</a></li>
+          <li role="menuitem" tabindex="0"><a href="/about" class="menubar-link">About</a></li>
+          <li role="menuitem" tabindex="0"><a href="/discord" class="menubar-link">Discord</a></li>
+        </ul>
+        <header>
+          <h4>Our projects</h4>
+        </header>
+        <main>
+          <p style="font-size: medium;">Our projects to keep legacy Windows alive<br></h5>
+          <ul class="list">
+            <li>
+              <div>
+                <a href="/projects/luminafox">Luminafox</a>
+                <p>A Firefox fork targeting older versions of Windows!</p>
+              </div>
+            </li>
+          </ul>
+
+          <h4>Upcoming projects</h4>
+          <p style="font-size: medium;">Stuff we're either working on or we will work on soon.</p>
+
+          <ul class="list">
+            <li>
+              <div>
+                <a href="/projects/sunrise">Sunrise</a>
+                <p>Modern-ish web browser for older systems</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a href="/projects/luminamail">Luminamail</a>
+                <p>Optimized mail client for Windows XP or higher</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a href="/projects/project-2600">Project 2600</a>
+                <p>Windows XP API extensions to allow for better program compatibility</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a href="/projects/powershell-xp">PowerShell XP</a>
+                <p>Windows Powershell backported to Windows XP</p>
+              </div>
+            </li>
+          </ul>
+        </main>
+        <footer style="margin-top: 40px;">
+          <p>&copy; Winrevive 2024</p>
+          <p>Winrevive's projects are not affiliated with Microsoft&reg; or any of its partners.</p>
+          <p>This website's source code is licensed under the GNU GPL2, read up on it <a
+              href="https://github.com/winrevive/winrevive.github.io/blob/main/LICENSE">here</a></p>
+          <p> Page contents are licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+          </p>
+        </footer>
+      </div>
     </div>
-    <main></main>
-    <footer></footer>
-  </body>
+  </div>
+</body>
+
 </html>
